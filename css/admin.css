@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.banner {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	background-image: url("../images/1.png");
+	background-size: cover;
+	background-position: center center;
+}
+
+.product-area,
+.insert-area,
+.update-area,
+.logout-area{
+	height: 100vh;
+}
+
+.text-content h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20%;
+	font-size: 50px;
+	margin: 0;
+	color: #fff;
+}
+
+
+.text-content h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10%;
+	font-size: 30px;
+	margin: 0;
+	color: #fff;
+}
+
+.text-content h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10%;
+	font-size: 30px;
+	margin: 0;
+	color: #fff;
+}
+
+.side-navbar {
+	height: 100%;
+	width: 248px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.side-navbar a {
+	padding: 50px 10px 10px 50px;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+
+.side-navbar img {
+	margin-left: 100px;
+}
+
+.userna{
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.side-navbar a:hover {
+	color: deeppink;
+}
+
+.content-area {
+	margin-left: 230px;
+	padding: 0 10px;
+}
+
+#product {
+	background: #DB3B3D;
+	
+}
+
+#insert {
+	background: darkorchid;
+}
+
+#update {
+	background: darksalmon;
+}
+
+#delete {
+	background: dodgerblue;
+	
+}
+
+#logout {
+	background: #7CE849;
+}
+

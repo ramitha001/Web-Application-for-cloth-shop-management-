@@ -1,0 +1,40 @@
+/* CSS Document */
+
+        ul li {
+            list-style: none;
+        }
+        
+        ul {
+            margin-left: -39px;
+        }
+        
+        body {
+            background-image: url(9.png);
+            height: 52vh;
+            background-size: cover;
+            background-position: center;
+            font-weight: 400px;
+            color: rgb(236, 0, 0);
+        }
+        
+        .footer {
+            font-size: 1rem;
+            font-family: sans-serif;
+            color: rgb(0, 0, 0);
+            margin-top: 162px;
+            font-weight: bold;
+        }
+        
+        .theme-bg-primary {
+            background: rgba(255, 255, 255, 0.24);
+            box-shadow: 0 8px 32px 0 rgba(29, 2, 21, 0.37);
+            backdrop-filter: blur(7px);
+            border: 3px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        .footer ul li a {
+            color: rgb(37, 0, 78);
+            font-size: 17px;
+            font-weight: bold;
+        }
+

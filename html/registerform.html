@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title> Register user Form </title>
+<link rel="stylesheet" type="text/css" href="../css/registerform.css" />
+<script type="text/javascript">
+    function Validate() {
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirm-pass").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+</head>
+<body>
+		 <div class="container">
+        <h2>Registration</h2>
+        <form method="post" action="../php/reginsert.php"  onSubmit="return Validate()">
+          <input type="text" name="username" id="username" placeholder="User Name">
+          <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="password" name="confirm-pass" id="confirm-pass" placeholder=" Confirm Password"> <br />
+            <div class="usertype">
+            <label for="usertype">User Type</label>
+          <select name="usertype" size="0" id="usertype">
+              <option value="user">User</option>
+              
+          </select>
+          </div>
+          <div class="btns">
+      <button type="submit" name="submit"> Register </button>
+          </div>
+			
+			 <div class="btns">
+      <button type="submit" name="submit" formaction="../php/chechlogin.php"> Back </button>
+          </div>
+
+        </form>
+    </div>
+
+</body>
+</html>
